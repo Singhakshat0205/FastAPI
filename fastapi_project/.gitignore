@@ -1,0 +1,5 @@
+myenv1/
+__pycache__/
+schema/__pycache__/
+config/__pycache__/
+model/__pycache__/
