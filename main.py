@@ -64,3 +64,6 @@ def PatientDeletion(id:str= Path(..., description='provide the patient id to del
         deleted_patient= data.pop(id)
         return {'message':f'{deleted_patient} got deleted from the patients list'}
     raise HTTPException(status_code=404, detail='cannot find any patient with this id')
+
+# now we will build post and put endpoints of our API
+
